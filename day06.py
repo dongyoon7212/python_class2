@@ -102,5 +102,14 @@
 #     print(i)
 
 #리스트 합 구하기
-total = 0
-num_list = [10, 20, 40, 60, 80]
+# total = 0
+# num_list = [10, 20, 40, 60, 80]
+# for num in num_list:
+#     print("num:",num)
+#     total += num
+#     print("total:",total)
+#
+# print(total)
+for dan in range(1, 10):
+    for n in range(1, 10):
+        print(f"{dan}x{n}={dan*n}")
