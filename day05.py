@@ -8,16 +8,16 @@
 #print(x)
 from doctest import script_from_examples
 
-#비교연산자
-# x = 10
-# y = 20
-# z = 10
-# print(x == y) #같다
-# print(x != z) #같지 않다
-# print(x > y) #왼쪽기준 오른쪽보다 크다
-# print(x < y) #왼쪽기준 오른쪽보다 작다
-# print(x >= z) #크거나 같다
-# print(x <= y) #작거나 같다
+# 비교연산자
+x = 10
+y = 20
+z = 10
+print(x == y) #같다
+print(x != z) #같지 않다
+print(x > y) #왼쪽기준 오른쪽보다 크다
+print(x < y) #왼쪽기준 오른쪽보다 작다
+print(x >= z) #크거나 같다
+print(x <= y) #작거나 같다
 
 #논리연산자
 # a = True
@@ -30,8 +30,8 @@ from doctest import script_from_examples
 #조건연산자 (삼항연산자)
 a = 10
 b = 20
-# max_value = a if a > b else b
-# print(max_value)
+max_value = a if a > b else b
+print(max_value)
 if a > b:
     max_value = a
 else:

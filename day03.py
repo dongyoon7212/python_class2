@@ -1,22 +1,22 @@
-# fruits = ["orange", "apple", "banana"] # 문자열 리스트
-# numbers = [6, 3, 1, 5] #숫자 리스트
-# bools = [True, False, True, True] #불리언 리스트
+fruits = ["orange", "apple", "banana"] # 문자열 리스트
+numbers = [6, 3, 1, 5, "hi"] #숫자 리스트
+bools = [True, False, True, True] #불리언 리스트
 #
-# mixed_list = ["안녕하세요", 12, True]
+mixed_list = ["안녕하세요", 12, True]
 
-# print(fruits[2][1])
+# print(fruits[2])
 # print(fruits[-2])
-#
+# #
 # fruits[1] = "cherry"
 # print(fruits)
 
-# numbers.append("hi") #마지막 자리에 요소 추가
-# print(numbers)
-# numbers.insert(1, 2) #특정 자리에 요소 추가
-# print(numbers)
+numbers.append("hi") #마지막 자리에 요소 추가
+print(numbers)
+numbers.insert(1, 2) #특정 자리에 요소 추가
+print(numbers)
 
 #print(numbers.pop())#리스트의 마지막 요소가 리턴된다.
-#numbers.remove("hi")
+# numbers.remove("hi")
 # print(numbers)
 #
 # del numbers[4] #삭제

@@ -1,36 +1,36 @@
 # print("Hello World")
 #
-# name = "이동윤"
-# age = 27.15
+name = "이동윤"
+age = 27.15
 #
 # "제 이름은 ____ 입니다."
 # print("제 이름은" + name + "입니다.") #띄어쓰기 X
 # print("제 이름은", name, "입니다.") #띄어쓰기 O
 #
 # "제 나이는 __ 입니다."
-# print("제 나이는", age, "입니다.")
-# print("제 나이는 {} 이고 이름은 {} 입니다.".format(age, name))
-# print("제 나이는 {a} 이고 이름은 {b} 입니다.".format(a=27, b="이동윤"))
-# print(f"제 나이는 {age} 이고 이름은 {name} 입니다.") #f-string 방식
-# print("제 나이는 %s 입니다." % age) # 문자열로 들어간다
-# print("제 나이는 %d 입니다." % age) # 모든 숫자가 정수로 들어간다
-# print(f"제 나이는 %d 이고 이름은 %s 입니다." % (age, name)) #f-string 방식
-# print("제 지분은 %d%% 입니다." % 2)
+print("제 나이는", age, "입니다.")
+print("제 나이는 {} 이고 이름은 {} 입니다.".format(age, name))
+print("제 나이는 {a} 이고 이름은 {b} 입니다.".format(a=27, b="이동윤"))
+print(f"제 나이는 {age} 이고 이름은 {name} 입니다.") #f-string 방식
+print("제 나이는 %s 입니다." % age) # 문자열로 들어간다
+print("제 나이는 %d 입니다." % age) # 모든 숫자가 정수로 들어간다
+print(f"제 나이는 %d 이고 이름은 %s 입니다." % (age, name)) #f-string 방식
+print("제 지분은 %d%% 입니다." % 2)
 #
 # print("%10.2f" % 3.141565) #%"자릿수"."몇번째소수점"f
 #
 #
-# #입력
-# #input()
-# email = input("이메일 : ")
-# hobby = input("취미 : ")
-# age = int(float(input("나이 : ")))
+#입력
+#input()
+email = input("이메일 : ")
+hobby = input("취미 : ")
+age = int(float(input("나이 : ")))
 #
 # print(f"제 이메일은 {email}, 제 취미는  {hobby}, 나이는 {age}")
 from curses.ascii import isupper
 
-# a = "Life is too short, You need Python"
-# print(a[2:10:2])
+a = "Life is too short, You need Python"
+print(a[2:10:2])
 
 # date = "20250218sunny"
 # date2 = "20260505cloudy"

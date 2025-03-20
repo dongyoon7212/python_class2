@@ -1,10 +1,11 @@
 #딕셔너리
 
-# profile = {
-#     "name" : "이동윤",
-#     "age" : 27,
-#     "hobby" : ["여행하기", "음악듣기"]
-# }
+profile = {
+    "name" : "이동윤",
+    "age" : 27,
+    "hobby" : ["여행하기", "음악듣기"]
+}
+print(profile["name"])
 
 # profile["age"] = 28 # 키가 존재 하는 것은 수정
 # print(profile)
@@ -46,14 +47,14 @@
 # {"name": "이동윤", "score": 80}
 
 # 첫번째 방법
-# student = {
-#     "name": input("이름 : "),
-#     "score": input("점수 : ")
-# }
+student = {
+    "name": input("이름 : "),
+    "score": input("점수 : ")
+}
 
 # 두번째 방법
-# student["name"] = input("이름 : ")
-# student["score"] = int(input("점수 : "))
+student["name"] = input("이름 : ")
+student["score"] = int(input("점수 : "))
 # print(student)
 
 #세트
